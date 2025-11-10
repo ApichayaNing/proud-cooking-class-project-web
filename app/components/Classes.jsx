@@ -43,7 +43,7 @@ export default function Classes() {
           className="hover:scale-105 transition-transform duration-300 "
         >
           <Image
-            src="/assets/packageA.png"
+            src="/assets/PackageA.png"
             alt="Class A"
             width={346}
             height={433}
@@ -57,7 +57,7 @@ export default function Classes() {
           className="hover:scale-105 transition-transform duration-300"
         >
           <Image
-            src="/assets/packageB.png"
+            src="/assets/PackageB.png"
             alt="Class B"
             width={346}
             height={433}
@@ -71,7 +71,7 @@ export default function Classes() {
           className="hover:scale-105 transition-transform duration-300"
         >
           <Image
-            src="/assets/packageC.png"
+            src="/assets/PackageC.png"
             alt="Class C"
             width={346}
             height={433}
@@ -85,7 +85,7 @@ export default function Classes() {
           className="hover:scale-105 transition-transform duration-300"
         >
           <Image
-            src="/assets/packageD.png"
+            src="/assets/PackageD.png"
             alt="Class D"
             width={346}
             height={433}
