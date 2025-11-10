@@ -39,7 +39,7 @@ export default function Classes() {
       <div className="md:w-1/2 grid grid-cols-2 gap-6 justify-center">
         {/* Class A */}
         <Link
-          href="/classes/class-a"
+          href="/classes/class-A"
           className="hover:scale-105 transition-transform duration-300 "
         >
           <Image
@@ -53,7 +53,7 @@ export default function Classes() {
 
         {/* Class B */}
         <Link
-          href="/classes/class-b"
+          href="/classes/class-B"
           className="hover:scale-105 transition-transform duration-300"
         >
           <Image
@@ -67,7 +67,7 @@ export default function Classes() {
 
         {/* Class C */}
         <Link
-          href="/classes/class-c"
+          href="/classes/class-C"
           className="hover:scale-105 transition-transform duration-300"
         >
           <Image
@@ -81,7 +81,7 @@ export default function Classes() {
 
         {/* Class D */}
         <Link
-          href="/classes/class-d"
+          href="/classes/class-D"
           className="hover:scale-105 transition-transform duration-300"
         >
           <Image
