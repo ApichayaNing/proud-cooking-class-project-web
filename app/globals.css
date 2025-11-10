@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+:root {
+  --background: hsl(0, 0%, 100%);
+  --foreground: #171717;
+}
+ 
+:root[data-theme="inline"] {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+body {
+  background-color: var(--color-white);
+  color: var(--color-text-dark);
+}
+/* 🌸 Proud Cooking Class Brand Colors */
+:root {
+  --color-cream: #F9E7C0;
+  --color-orange: #F97316;
+  --color-mint: #B9F5BB;
+  --color-blue: #B9DAF5;
+
+  /* Optional Text Colors */
+  --color-text-dark: #1f2937; /* neutral dark gray */
+  --color-text-light: #ffffff;
+}
+
+button {
+  background-color: var(--color-orange);
+  color: var(--color-text-light);
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ea580c; /* darker orange for hover */
+}
+
+.section-highlight {
+  background-color: var(--color-mint);
+  border: 2px solid var(--color-orange);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* 🌸 Proud Cooking Class Brand Colors */
+:root {
+  --color-cream: #F9E7C0;
+  --color-orange: #f79753;
+  --color-mint: #B9F5BB;
+
+  /* Optional Text Colors */
+  --color-text-dark: #1f2937; /* neutral dark gray */
+  --color-text-light: #ffffff;
+}
+
+h1, h2, h3, button {
+  font-family: 'Poppins', sans-serif;
+}
+body, p {
+  font-family: 'Inter', sans-serif;
+}
