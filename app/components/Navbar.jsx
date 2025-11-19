@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import React, { useState, useEffect, useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 
@@ -45,38 +44,39 @@ const Navbar = () => {
 
         {/* Logo */}
         <a
-          href="/Header"
+          href="#top"
           style={{ borderRadius: "12px" }}
           className=" bg-(--color-cream) text-(--color-text-dark) font-semibold hover:scale-105 transition"
         >
-          Proud Cooking Class
+          Proud Home Cooking Class
         </a>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex items-center space-x-8 ml-8 lg:ml-16 ">
-          <li href="/" className="bg-white text-black hover:scale-105 transition">
-            Home
+          <li className="bg-white text-black hover:scale-105 transition">
+            <a href="#top">Home</a>
           </li>
-          <li href="/About" className="bg-white text-black hover:scale-105 transition">
-            About Us
+          <li className="bg-white text-black hover:scale-105 transition">
+            <a href="#about">About Us</a>
           </li>
-          <li href="/Classes" className="bg-white text-black hover:scale-105 transition">
-            Our Classes
+          <li className="bg-white text-black hover:scale-105 transition">
+            <a href="#classes">Our Classes</a>
           </li>
-          <li href="/Team" className="bg-white text-black hover:scale-105 transition">
-            Our Team
+          <li className="bg-white text-black hover:scale-105 transition">
+            <a href="#team">Our Team</a>
           </li>
-          <li href="/Con" className="bg-white text-black hover:scale-105 transition">
-            Contact Us
+          <li className="bg-white text-black hover:scale-105 transition">
+            <a href="#contact">Contact Us</a>
           </li>
           <li
-            href="/booking"
             style={{ borderRadius: "12px" }}
             className="bg-[#f4b466] text-(--color-text-dark) font-bold hover:scale-105 transition"
           >
-            Book Now
+            <a href="#booking">Book Now</a>
           </li>
         </ul>
+
+        {/* ✅ Mobile Menu Button */}
         <button
           onClick={toggle}
           className="ml-4 md:hidden absolute right-4 text-2xl text-white bg-[#ec9a56] p-3 rounded-lg">
@@ -96,15 +96,15 @@ const Navbar = () => {
           <FaTimes size={24} />
         </div>
 
-        <li><Link href="/Header">Home</Link></li>
-        <li><Link href="About">About Us</Link></li>
-        <li><Link href="Classes">Our Classes</Link></li>
-        <li><Link href="Team">Our Team</Link></li>
-        <li><Link href="Contact">Contact Us</Link></li>
-        <li><Link href="Booking">Book Now</Link></li>
+        <li><a href="#top" onClick={closeMenu}>Home</a></li>
+        <li><a href="#about" onClick={closeMenu}>About Us</a></li>
+        <li><a href="#classes" onClick={closeMenu}>Our Classes</a></li>
+        <li><a href="#team" onClick={closeMenu}>Our Team</a></li>
+        <li><a href="#contact" onClick={closeMenu}>Contact</a></li>
+        <li><a href="#booking" onClick={closeMenu}>Book Now</a></li>
       </ul>
     </nav>
   );
 };
 
-export default Navbar; 
+export default Navbar;

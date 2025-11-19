@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function HomePage() {
   return (
-    <main className="w-full bg-white text-gray-800 flex flex-col items-center">
+    <main id="top" className="w-full bg-white text-gray-800 flex flex-col items-center">
       {/* Hero Section */}
       <section className="flex flex-col md:flex-row items-center justify-between px-8 py-16 w-full max-w-6xl">
         {/* Left Column */}

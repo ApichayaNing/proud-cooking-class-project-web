@@ -2,10 +2,10 @@ export default function Team() {
   return (
     <main className="min-h-screen bg-transparent text-gray-800 flex flex-col items-center">
  
-      <section className="max-w-5xl px-6 py-16 text-center space-y-6">
+      <section id="team" className="max-w-5xl px-6 py-16 text-center space-y-6">
         <h2 className="text-4xl font-bold text-black">Meet Our Team...</h2>
         <p className="italic leading-relaxed">
-          <span className="font-bold bg-(--color-cream) text-(--color-text-dark)" style={{ borderRadius: '12px' }}>Proud Cooking Class</span> 
+          <span className="font-bold bg-(--color-cream) text-(--color-text-dark)" style={{ borderRadius: '12px' }}>Proud Home Cooking Class</span> 
           offers travelers and locals an authentic Thai culinary experience,
           <span className="font-bold bg-[#B9F5BB] text-(--color-text-dark)" style={{ borderRadius: '12px' }}> founded by Kik</span>, 
           a cheerful local from Koh Phangan who has years of experience teaching authentic Thai cuisine with love and laughter. 

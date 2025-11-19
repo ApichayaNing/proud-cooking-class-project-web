@@ -5,11 +5,11 @@ import Link from "next/link";
 
 export default function Classes() {
   return (
-    <section className="flex flex-col md:flex-row items-start justify-between px-8 py-16 w-full max-w-6xl mx-auto gap-10">
+    <section id="classes" className="flex flex-col md:flex-row items-start justify-between px-8 py-16 w-full max-w-6xl mx-auto gap-10">
       {/* Left Column */}
       <div className="md:w-1/2 space-y-6">
         <h1 className="text-5xl md:text-6xl font-extrabold leading-tight text-gray-900">
-          Proud <br /> Cooking Class Packages
+          Proud Home <br /> Cooking Class Packages
         </h1>
 
         <p className="italic text-gray-700 mb-6 max-w-[400px]">

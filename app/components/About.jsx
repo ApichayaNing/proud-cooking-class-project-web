@@ -3,11 +3,11 @@ const About = () => {
 return (
     <main className="min-h-screen bg-transparent text-gray-800 flex flex-col items-center">
  
-    <section className="max-w-5xl px-6 py-16 text-center space-y-6">
+    <section id="about" className="max-w-5xl px-6 py-16 text-center space-y-6">
         <h2 className="text-4xl font-bold text-black">About Us...</h2>
         <p className="italic leading-relaxed"> 
           Welcome to <span className="font-bold bg-(--color-cream) text-(--color-text-dark)" style={{ borderRadius: '12px' }}>
-          Proud Cooking Class</span> a local gem nestled in the heart of Koh Phangan, Thailand,
+          Proud Home Cooking Class</span> a local gem nestled in the heart of Koh Phangan, Thailand,
           where authentic Thai flavors meet warm island hospitality.Here, cooking isn’t just about recipes — it’s about  
           <span className="font-bold bg-[#B9F5BB] text-(--color-text-dark)" style={{ borderRadius: '12px' }}>stories, smiles, and sharing food made with love.</span>,
           Each class invites you to roll up your sleeves, grind fresh curry paste, and discover the secrets behind Thailand’s most beloved dishes. From fragrant herbs 
